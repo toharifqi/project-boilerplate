@@ -19,4 +19,11 @@ class LineCalculatorTest {
 
         assertEquals(0, lineCalculator.calculateLineLength(1, 1, 1, 1));
     }
+
+    @Test
+    public void testCalculateLineLengthGivenHorizontalOrVerticalInputsExpectReturnPositiveIntegerValue() {
+        LineCalculator lineCalculator = new LineCalculator();
+
+        assertEquals(2, lineCalculator.calculateLineLength(2, 0, 0, 0));
+    }
 }
