@@ -24,12 +24,18 @@ sudo apt install openjdk-11-jdk
 
 ## How to run test
 
-TBD
+```shell
+./gradlew test
+```
 
 ## Build instruction
 
-TBD
+```shell
+./gradlew build
+```
 
 ## Run instruction
 
-TBD
+```shell
+./gradlew run
+```
