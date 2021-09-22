@@ -12,4 +12,11 @@ class LineCalculatorTest {
 
         assertEquals(0, lineCalculator.calculateLineLength(0, 0, 0, 0));
     }
+
+    @Test
+    public void testCalculateLineLengthGivenSameInputsExpectReturn0() {
+        LineCalculator lineCalculator = new LineCalculator();
+
+        assertEquals(0, lineCalculator.calculateLineLength(1, 1, 1, 1));
+    }
 }
